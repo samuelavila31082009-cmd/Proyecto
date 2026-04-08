@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("Imagenes/fondo_7.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+#titulo{
+    text-align: center;
+}
+#titulo h1{
+    color: #FFF;
+    font-weight: 600;
+    font: italic bold 60px Georgia, Serif;
+    text-shadow: -4px 3px 0 #34d16e, -12px 6px 0 #0a0e27;
+}
+#introduccion{    
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: justify;
+    padding: 15px;
+}
+#introduccion h2{
+    font-size: 26px;
+    font-family: 'Garamond';
+    color: rgb(255, 255, 255);
+}
+.contenedor{
+    width: 76%;
+    display:flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    width: 30%;
+    border-style: solid;
+    border-color: brown;
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.menu_1{
+    width: 100%;
+}
+.menu_1 h1{
+    border-style: solid;
+    border-color: brown;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-width: 2px;
+    text-align: left;
+    font-size: 45px;
+    color: rgb(4, 15, 168);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+.menu img{
+    width: 350px;
+    padding-top: 30px;
+}
+.menu h1{
+    border-style: solid;
+    border-color: brown;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+    text-align: center;
+    color: rgb(71, 10, 107);
+    padding: 5px;
+}
+.menu p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Garamond';
+}
+#pie p{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(71, 10, 107);
+    font-family: 'Garamond';
+    font-size: 18px;
+}
+#pie a{
+    text-decoration: none;
+    padding: 15px;
+}
+#pie_1{
+    border-style: solid;
+    border-color: brown;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 2px;
+    width: 76%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+#pie_1 p{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(71, 10, 107);
+    font-family: 'Garamond';
+    font-size: 18px;
+    padding: 10px;
+}
+#pie_1 a{
+    text-decoration: none;
+    padding: 15px;
+}
+.alimentos{
+    width: 50%;
+    color: rgb(71, 10, 107);
+    font-family: 'Garamond';
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.alimentos img{
+    width: 350px;
+}
+.alimentos p{
+    font-family: 'Garamond';
+    font-size: 20px;
+}
+#regresar{
+    text-align: center;
+}
+#regresar img {
+    width: 80px;
+}
+#introduccion p{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);
+}
